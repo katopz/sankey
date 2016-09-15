@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Button from 'muicss/lib/react/button';
 
 export default class extends React.Component {
   constructor() {
@@ -75,10 +75,10 @@ export default class extends React.Component {
         />
       
         <div className="input-group-btn">
-          <button className="btn btn-primary"
+          <Button color="primary"
             onClick={this.props.addLink.bind(null, parseInt(this.state.source), parseInt(this.state.target), parseInt(this.state.weight))}>
             Add Link
-          </button>
+          </Button>
         </div>
       </div>
     );

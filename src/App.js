@@ -5,7 +5,8 @@ import TopBar from './toolbars/TopBar';
 import SankeyChart from './SankeyChart';
 import FooterBar from './toolbars/FooterBar';
 
-import bootstrap from 'bootstrap/dist/css/bootstrap.css';
+//import bootstrap from 'bootstrap/dist/css/bootstrap.css'; //118kb
+import Button from 'muicss/lib/react/button'; //41kb
 import './sankey.css';
 
 import {foo} from './foo';
@@ -180,9 +181,9 @@ export default class App extends Component {
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.handleModalCloseRequest}
           style={modalStyle}>
-          <button className="close" onClick={this.closeModal}>
+          <Button className="close" onClick={this.closeModal}>
             <span aria-hidden="true">&times; </span>
-          </button>
+          </Button>
           <h4>{header}</h4>
           <hr />
           <input
@@ -193,7 +194,7 @@ export default class App extends Component {
           <hr />
           <div className="row">
             <div className="col-xs-12">
-              <button className="btn btn-primary btn-block" onClick={this.closeAndSaveModal}>Apply Changes</button>
+              <Button color="primary" onClick={this.closeAndSaveModal}>Apply Changes</Button>
             </div>
           </div>
         </Modal>

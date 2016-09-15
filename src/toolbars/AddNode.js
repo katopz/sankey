@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Button from 'muicss/lib/react/button';
 
 export default class extends React.Component {
   constructor() {
@@ -40,10 +40,10 @@ export default class extends React.Component {
           onChange={this.handleChange('name')} 
         />
         <span className="input-group-btn">
-          <button className="btn btn-primary"
+          <Button color="primary"
             onClick={this.props.addNode.bind(null, this.state.name)}>
             Add Node
-          </button>
+          </Button>
         </span>
       </div>
     );

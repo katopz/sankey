@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExportJSON, ImportJSON } from '../utils';
+import Button from 'muicss/lib/react/button';
 
 export default class extends React.Component {
   render() {
@@ -9,7 +10,7 @@ export default class extends React.Component {
           <div className="col-xs-5">
           </div>
           <div className="col-xs-7">
-            <button className="btn btn-success pull-right startNew" onClick={this.props.emptyDiagram}>New Diagram</button>
+            <Button color="primary" onClick={this.props.emptyDiagram}>New Diagram</Button>
             <ExportJSON 
               nodes={this.props.nodes}
               links={this.props.links}

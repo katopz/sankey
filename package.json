@@ -16,6 +16,7 @@
     "d3": "^3.5.10",
     "d3-plugins-sankey": "^1.2.1",
     "lodash": "^3.10.1",
+    "muicss": "^0.7.5",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-faux-dom": "^2.1.1",
