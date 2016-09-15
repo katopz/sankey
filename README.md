@@ -3,6 +3,8 @@
 - [ ] init data instead of load (create-react-app failed to load `json` for some reason)
 - [ ] Import didn't seem to work via chrome.
 
+js 423kb, css 118kb
+
 ---
 
 Sankey - D3/REACT App 
