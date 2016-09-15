@@ -12,6 +12,7 @@
   "author": "Nick Balestra",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^3.3.6",
     "d3": "^3.5.10",
     "d3-plugins-sankey": "^1.2.1",
     "lodash": "^3.10.1",
