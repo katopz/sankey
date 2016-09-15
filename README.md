@@ -1,3 +1,10 @@
+## Here's what modified. 
+- [ ] Add [create-react-app](https://github.com/facebookincubator/create-react-app)
+- [ ] init data instead of load (create-react-app failed to load `json` for some reason)
+- [ ] Import didn't seem to work via chrome.
+
+---
+
 Sankey - D3/REACT App 
 ===========================
 

@@ -1,4 +1,4 @@
-{"nodes":[
+export const foo = {"nodes":[
 {"name":"Agricultural 'waste'"},
 {"name":"Bio-conversion"},
 {"name":"Liquid"},

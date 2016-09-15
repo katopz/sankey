@@ -1,0 +1,1 @@
+export const bar = {"nodes":[{"node":0,"name":"Node0"},{"node":1,"name":"Node1"}],"links":[{"source":0,"target":1,"value":100}]}

@@ -45,6 +45,7 @@ function loadData(path) {
 
 
 function readFile(e) {
+  console.log("readFile"); 
   var file = e.target.files[0]; 
 
   if (!file) {
@@ -54,6 +55,7 @@ function readFile(e) {
   } else {
     var r = new FileReader();    
     r.onload = function(e) { 
+      console.log("onload"); 
       var contents = JSON.parse(e.target.result);
       var nodes = contents.nodes.map(function(node, i){
         if (!node.node) {
